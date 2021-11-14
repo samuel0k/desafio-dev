@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  header{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(179, 179, 179, 0);
+  }
+  
+  header div#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header div#logo div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header div#logo div h1{
+    color: black;
+  }
+  header div#logo div h2{
+    margin-left: 7px;
+    margin-top: 35px;
+    color: blueviolet;
+  }
+  
+  header ul#route-btns{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    width: 30%;
+    height: 100%;
+  }
+  
+  header ul#route-btns li{
+    width: 35%;
+    height: 80%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+  }
+  
+  header ul#route-btns li a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+  }
+  
